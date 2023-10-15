@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+body
+{
+    height: 100vh;
+    background:linear-gradient(to right,darkgray,grey);
+
+}
+.container
+{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid lightgray;
+    padding: 90px;
+    background-color: lightgray;
+    box-shadow: rgba(0,0,0,0.35)0px 5px 15px ;
+    border-radius: 5%;
+}
+.form-control
+{
+    margin-top: 5%;
+    padding:5%;
+    padding-right: 22%;
+    margin-right: 50px ;
+}
+.header2
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.header
+{
+   
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 10%;
+
+}
+input[type="text"]
+{
+   color: #fff;
+   border: none;
+   background-color: #485563;
+   max-width: 400px; 
+}
+
+.delete
+{
+    cursor: pointer;
+    color: red;
+    float: right;
+    margin-right: 1%;
+}
+ul.list-group-todos
+{
+    
+    background-color: #fff;
+    color:black;
+    font-weight: bold;
+    border: 1px solid white; 
+    padding: 5%;
+    list-style: none;
+    width: 92%;
+    font-family: 'Poppins',  sans-serif;
+    font-weight: 200;
+    
+    flex-direction: column;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+}
+.list-group-item
+{
+    justify-content: space-around;
+}
